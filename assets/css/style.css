@@ -4,5 +4,50 @@
     box-sizing: border-box;
 }
 body{
-   background-image: url(../img/wallpaper-pokemon.jpg); 
+   background-image: url(../img/wallpaper-pokemon.jpg);
+   width: 100%; 
+   padding-bottom: 5rem;
+   
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;  
+}
+img{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;  
+}
+img.recherche{
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
+    gap: 3rem;
+}
+select{
+   
+    margin-top: 1%;
+    width: auto;
+    padding-top:  1rem;
+    height: 3rem; 
+    border-radius: 3rem;
+    
+    color: blue; 
+}
+.affichage-pokemon{
+    /* margin: 2rem auto; */
+    width: 30%;
+    border-radius: 10%;
+    border: solid 1px rgb(7, 161, 233);
+    background-color: rgba(237, 241, 244, 0.56);
+}
+#select.select{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
 }
