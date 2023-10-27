@@ -24,8 +24,9 @@ displayPokemons();
 
 const container = document.createElement("div");
 container.classList.add("container")
-      document.body.appendChild(container)
-      document.querySelectorAll("img")
+      document.body.appendChild(container);
+      let img = document.querySelectorAll(".recherche");
+      console.log(img.recherche)
 const select = document.createElement('select');
       select.setAttribute("id","select");
       select.classList.add("select")

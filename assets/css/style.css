@@ -11,11 +11,14 @@ body{
 
 }
 .container{
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 5rem;
     justify-content: center;
     align-items: center;  
+    background-color: rgba(2, 143, 251, 0.307);
+    border-radius: 5%;
 }
 img{
     width: 40%;
@@ -39,13 +42,7 @@ select{
     
     color: blue; 
 }
-.affichage-pokemon{
-    /* margin: 2rem auto; */
-    width: 30%;
-    border-radius: 10%;
-    border: solid 1px rgb(7, 161, 233);
-    background-color: rgba(237, 241, 244, 0.56);
-}
+
 #select.select{
     text-align: center;
     padding: 1rem;
